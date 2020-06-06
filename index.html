@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <title>Assignment Module 3</title>
+    <style>
+    	h1
+    	{
+    		color:black;
+    		text-align:center;
+    		margin-bottom:30px;
+    	}
+    	.bruh
+    	{
+    		position:relative;
+   			background-color: #C0C0C0;
+   			border:solid white 20px;
+   			padding:40px;
+
+   		}
+    	.h
+    	{
+    		padding:5px;
+    		position:absolute;
+    		top:10px;
+    		right:40px;
+    		font-size: 1.75em;
+    		border:solid black 1px;
+    	}
+    	p
+    	{
+    		font-size:1.25em;
+    		position:relative;
+    		top:18px;
+    	}
+    	.a1
+    	{
+    		background-color: red;
+    		color:black;
+    	}
+    	.a2
+    	{
+    		background-color:#fa8072;
+    		color:white;
+    	}
+    	.a3
+    	{
+    		background-color:#FFFF99;
+    		color:black;
+    	}
+    	#header-nav
+		{
+			background-color:#C0C0C0;
+			border-radius:0;
+			border:0;
+		}
+		.navbar-brand
+		{
+			padding-top:25px;
+		}
+		.navbar-brand h1
+		{
+			font-family: 'Lora', serif;
+			color:black;
+			font-size:1.5em;
+			text-transform: uppercase;
+			font-weight:bold;
+			text-shadow: 1px 1px 1px #222;
+			margin-top:0;
+			margin-bottom: 0;
+			line-height: 0.25;
+		}*/
+		.navbar-brand a:hover, .navbar-brand a:focus
+		{
+			text-decoration:none;
+		}
+		#nav-list a
+		{
+			color:black;
+			text-align:center;
+		}
+		#nav-list a:hover
+		{
+			background:white;
+		}
+		.navbar-header button.navbar-toggle, .navbar-header .icon-bar
+		{
+			border:1px solid #61122f;
+		}
+    </style>
+</head>
+<body>
+	<header>
+    	<nav id="header-nav" class="navbar navbar-default">
+      		<div class="container">
+        		<div class="navbar-header">
+          			<div class="navbar-brand">
+            			<a href="dhiraj.html"><h1 id="top">Food LLC</h1></a>
+         			</div>
+          			<button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+			            <span class="sr-only">Toggle navigation</span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+          			</button>
+        		</div>
+       			<div id="collapsable-nav" class="collapse navbar-collapse">
+       				<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs visible-sm">
+       					<li>
+       						<a href="#chicken">
+       							Chicken
+       						</a>
+       					</li>
+       					<li>
+       						<a href="#beef">
+       							Beef
+       						</a>
+       					</li>
+       					<li>
+       						<a href="#sushi">
+       							Sushi
+       						</a>
+       					</li>
+       				</ul>
+      		</div><!-- .container -->
+    	</nav><!-- #header-nav -->
+  	</header>
+	<h1>The Menu</h1>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+				<div class="bruh" id="chicken">
+				<span class="h a1">Chicken</span>
+				<p>
+					Lorem ipsum dolor sit smet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem, Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehrnderit minima, itaque cupiditate totem.Lorem ipsum dolor sit smet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem, Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehrnderit minima, itaque cupiditate totem.<br>
+					<a href="#top">Back to top</a>
+				</p>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+				<div class="bruh" id="beef">
+				<span class="h a2">Beef</span>
+				<p>
+					Lorem ipsum dolor sit smet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem, Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehrnderit minima, itaque cupiditate totem.Lorem ipsum dolor sit smet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem, Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehrnderit minima, itaque cupiditate totem.<br>
+					<a href="#top">Back to top</a>
+				</p>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+				<div class="bruh" id="sushi">
+				<span class="h a3">Sushi</span>
+				<p>
+					Lorem ipsum dolor sit smet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem, Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehrnderit minima, itaque cupiditate totem.Lorem ipsum dolor sit smet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem, Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehrnderit minima, itaque cupiditate totem.<br>
+					<a href="#top">Back to top</a>
+				</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</body>
